@@ -6,10 +6,11 @@ This module defines a Rectangle class that counts its instances.
 
 class Rectangle:
     """
-    Rectangle class that defines a rectangle and tracks the number of instances.
+    Rectangle class that defines a rectangle.
 
     Attributes:
-        number_of_instances (int): The number of active Rectangle instances.
+        number_of_instances (int): The number of active
+            Rectangle instances.
     """
 
     number_of_instances = 0
