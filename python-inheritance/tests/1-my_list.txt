@@ -23,8 +23,10 @@ Testing with an empty list:
     >>> empty_list.print_sorted()
     []
 
-Testing with other values:
+Testing with other values (including negatives):
 
     >>> my_list = MyList([10, -5, 0, 4])
     >>> my_list.print_sorted()
     [-5, 0, 4, 10]
+    >>> print(my_list)
+    [10, -5, 0, 4]
